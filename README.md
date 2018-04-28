@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+# Welcome to my Node bot example for Slack
 
-You can use the [editor on GitHub](https://github.com/artpowell/bot-example/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This example uses the Botkit package
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#### Use Botkit Studio
+[Botkit Studio](https://studio.botkit.ai/signup?code=slackglitch) is a set of tools that adds capabilities to the open source Botkit library by offering hosted GUI interfaces for script management and action trigger definition. 
 
-### Markdown
+While Botkit Studio is *not required* to build a bot using Botkit, we highly recommend it as your bot will be easier to manage, customize and extend.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Install Botkit
 
-```markdown
-Syntax highlighted code block
+[Remix this project on Glitch](https://glitch.com/~botkit-slack)
 
-# Header 1
-## Header 2
-### Header 3
+[Deploy to Heroku](https://heroku.com/deploy?template=https://github.com/howdyai/botkit-starter-slack/master)
 
-- Bulleted
-- List
+Clone this repository using Git:
 
-1. Numbered
-2. List
+`git clone https://github.com/howdyai/botkit-starter-slack.git`
 
-**Bold** and _Italic_ and `Code` text
+Install dependencies, including [Botkit](https://github.com/howdyai/botkit):
 
-[Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/artpowell/bot-example/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+cd botkit-starter-slack
+npm install
+```
